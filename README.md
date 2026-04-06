@@ -50,18 +50,28 @@ Nesta secção, documento o processo de "conversa" com a IA para extrair o melho
 
 ### 1. Resumos Estruturados: Conceitos Chave de QA
 
+#### A. O Processo de Teste (Segundo ISTQB 4.0)
+Com base no processamento do Syllabus pela IA, o fluxo ideal segue:
+1. **Planejamento:** Definição de objetivos e abordagem.
+2. **Análise e Modelagem:** O que testar e criação dos casos de teste.
+3. **Implementação e Execução:** Preparação do ambiente e rodagem dos testes.
+4. **Avaliação e Relatório:** Verificação dos critérios de saída e comunicação dos resultados.
+5. **Atividades de Fechamento:** Lições aprendidas e arquivamento de dados.
+
+#### B. Matriz Comparativa: Técnicas de Teste
 | Conceito | Definição (ISTQB) | Aplicação Prática |
 | :--- | :--- | :--- |
-| **Teste de Caixa-Preta** | Baseado em requisitos e especificações. | Validar se o botão de login funciona como esperado sem olhar ao código. |
+| **Teste de Caixa-Preta** | Baseado em requisitos e especificações. | Validar se o botão de login funciona como esperado sem olhar o código. |
 | **Teste de Caixa-Branca** | Baseado na estrutura interna do código. | Verificar a cobertura de caminhos e lógica de funções no backend. |
-| **Teste de Regressão** | Testar novamente após alterações para garantir que nada se partiu. | Executar a suite de testes após uma nova funcionalidade ser adicionada. |
+| **Teste de Regressão** | Testar novamente após alterações para garantir que nada quebrou. | Executar a suite de testes após uma nova funcionalidade ser adicionada. |
 
 ### 2. Glossário de Termos Críticos
 
-* **Defeito (Bug):** Uma imperfeição num componente ou sistema que pode causar falhas.
+* **Defeito (Bug):** Uma imperfeição técnica em um componente ou sistema que pode causar falhas.
 * **Falha:** Manifestação física ou funcional de um defeito durante a execução.
 * **Caso de Teste:** Conjunto de pré-condições, entradas e resultados esperados para um cenário específico.
-* **Alucinação de IA:** Quando a ferramenta gera uma norma que não existe nas fontes (ex: inventar um nível de teste não oficial).
+* **Qualidade de Software (QA):** Conjunto de atividades que garantem que o processo de desenvolvimento resulte em um produto que atenda aos requisitos.
+* **Alucinação de IA:** Quando a ferramenta gera uma resposta que parece correta, mas não possui fundamento nas fontes fornecidas.
 
 ### 3. Biblioteca de Prompts Reutilizáveis
 
@@ -79,4 +89,4 @@ Utilize estes prompts para revisões futuras no NotebookLM:
 
 * [NotebookLM](https://notebooklm.google.com/)
 * [GitHub](https://github.com/)
-* [ChatGPT/Gemini](https://gemini.google.com/) (para suporte na estruturação)
+* [Gemini](https://gemini.google.com/) (para suporte na estruturação)
